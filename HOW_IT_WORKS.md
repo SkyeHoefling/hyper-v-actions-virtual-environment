@@ -1,0 +1,4 @@
+# How It Works?
+GitHub keeps all the installation scripts in their Open Source repository [https://github.com/actions/virtual-environments](https://github.com/actions/virtual-environments). They use [packer](https://github.com/hashicorp/packer) to automatically create the virtual machine. This repository contians a seies of powershell scripts and instructions for running all of this in an Azure Virtual Machine but no where else.
+
+This repository takes a fork of their packer scripts and converts them into a compatible `*.pkr.hcl` file. Then it uses the Hyper-V community builder tools to run the provisioning scripts on the Hyper-V virtual machine.
