@@ -1,2 +1,3 @@
 iso/*.iso
 packer_cache/
+output-windows-2019-g2/
